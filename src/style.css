@@ -1,0 +1,196 @@
+@import url(./reset.css);
+
+body{
+    max-width: 1920px;
+    height: 9095px;
+
+    background: #fff;
+}
+
+header{
+
+}
+
+.navbar{
+    display: inline;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    font-size: 14px;
+    color: #fff;
+    background: #1E212C;
+}
+
+
+.available{
+}
+
+.extra-menu{
+    margin: 0 195px 0 195px;
+}
+
+.currensy-selector{
+    margin-right: 63px;
+}
+
+.account{
+
+}
+
+.extra-menu-ul li:not(:last-child){
+    margin-right: 32px;
+}
+li{
+
+    display: inline;
+}
+.extra-menu-ul a, .account a{
+    color: #fff;
+}
+
+.main-bar{
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu{
+    margin: 0 135px 0 65px;
+}
+
+
+.menu-ul li:not(:last-child){
+    margin-right: 32px;
+}
+
+.sale{
+    color: #FF4242;
+}
+
+
+
+.input{
+    display: flex;
+}
+
+input{
+    position: relative;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    width: 380px;
+    height: 44px;
+    padding-left: 16px;
+    padding-right: 31px;
+}
+
+input::placeholder{
+    font-size: 14px;
+    color: #9A9CA5;
+}
+
+.search-btn{
+    position: relative;
+    width: 14.33px;
+    height: 14.33px;
+    top: 14px;
+    right: 31px;
+    background: #424551;
+}
+
+.toolbar{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    width: 131px;
+    height: 26px;
+}
+
+.likes{
+    display: flex;
+}
+
+.likes img{
+    position: relative;
+    width: 19px;
+    height: 18px;
+    margin-right: 8.5px;
+}
+
+.likes p::after{
+    content: '';
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #DADBDD;
+}
+
+.card{
+    display: flex;
+}
+
+.card img{
+    position: relative;
+    width: 20px;
+    height: 18px;
+    margin-right: 9.3px;
+}
+
+
+.items{
+    text-align: center;
+    width: 23px;
+    background: #03CEA4;
+    border-radius: 4px;
+}
+
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    background: #17696A;
+}
+
+.banner-text{
+    width: 274px;
+    height: 18px;
+}
+
+.banner-text p{
+
+    font-size: 12px;
+    color: #fff;
+}
+
+.banner-text a{
+    font-size: 12px;
+    color: #fff;
+    text-decoration-line: underline;
+}
+
+.arrow{
+    border: solid #fff;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
