@@ -240,19 +240,18 @@ input::placeholder {
     font-weight: 900;
     color: #1E212C;
     letter-spacing: 1px;
+    margin-bottom: 60px;
 }
 
 .button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
     border: 1px solid #17696A;
     border-radius: 4px;
     color: #17696A;
     height: 52px;
     font-weight: 700;
-    font-style: 16px;
     letter-spacing: 0.5px;
     padding-right: 40px;
     padding-left: 40px;
