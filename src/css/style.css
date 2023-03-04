@@ -174,7 +174,7 @@ input::placeholder {
     border-radius: 4px;
 }
 
-.banner {
+.header__banner {
     display: flex;
     justify-content: center;
     height: 34px;
@@ -183,12 +183,12 @@ input::placeholder {
 }
 
 
-.banner p {
+.header__banner p {
     font-size: 12px;
     color: #fff;
 }
 
-.banner a {
+.header__banner a {
     font-size: 12px;
     color: #fff;
     text-decoration-line: underline;
