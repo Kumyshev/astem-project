@@ -1,0 +1,111 @@
+.banners {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+
+.bunners__banner__container {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+
+.banners__banner {
+    position: relative;
+    height: 500px;
+    border-radius: 4px;
+}
+
+
+.undertitle {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banners__banner__title {
+
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.banners__banner__button {
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.banners__banner__subtitle {
+    margin-top: 70px;
+    font-size: 14px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    width: 209px;
+    margin-top: 12px;
+}
+
+.inner {
+    display: inline;
+}
+
+.count {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+.banners__banner__button img {
+    margin-left: 10px;
+}
+
+.banners__banner:last-of-type {
+    width: 735px;
+    background: #E5E8ED;
+}
+
+.banners__banner:last-child img {
+    position: relative;
+    top: 120px;
+    left: 296px;
+}
+
+.banners__banner p:first-of-type {
+    margin-top: -15px;
+}
+
+.inputfield {
+    position: relative;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    width: 360px;
+    height: 44px;
+}
+
+.banner__inputfield {
+    background: #FFFFFF;
+    width: 230px;
+    height: 44px;
+    border: 1px solid #D7DADD;
+    border-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.banners__banner:last-child .banners__banner__button {
+    position: absolute;
+    width: 130px;
+    height: 44px;
+    color: #FFFFFF;
+    background: #17696A;
+    border-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
