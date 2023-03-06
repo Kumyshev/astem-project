@@ -1,0 +1,44 @@
+.cta_mobile_app {
+    position: relative;
+    margin-top: 150px;
+    height: 300px;
+    color: #fff;
+    background: #1E212C;
+}
+
+.cta_main{
+    float: right;
+    display: inline;
+    margin-top: 60px;
+    margin-right: 345px;
+}
+
+.cta_mobile_app p{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.cta_btns{
+    margin-top: 48px;
+    display: flex;
+    gap: 30px;
+}
+
+.cta_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 162px;
+    height: 48px;
+    color: #fff;
+    background: #424551;
+    border-radius: 4px;
+}
+
+.cta_img{
+    content: url(../imgs/cta_banner.svg);
+    position: absolute;
+    left: 317px;
+    bottom: 0;
+}

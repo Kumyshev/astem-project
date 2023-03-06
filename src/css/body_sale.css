@@ -1,0 +1,42 @@
+.sale {
+    background: unset;
+}
+
+.sale__button_arrow_l {
+    background: #FFFFFF url(../imgs/icons/black_arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sale__button_arrow_r {
+
+    background: #FFFFFF url(../imgs/icons/black_arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sale__product__price {
+    color: #FF4242;
+}
+
+.sale__product__price::after {
+    content: attr(data-descr);
+    margin-left: 5px;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #787A80;
+}
+
+.sale_discount {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 28px;
+    top: 16px;
+    left: 16px;
+    color: #FFFFFF;
+    background: #FF4242;
+    border-radius: 4px;
+}
